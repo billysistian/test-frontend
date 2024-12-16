@@ -1,0 +1,567 @@
+
+<!-- DEBUG-VIEW START 4 APPPATH/Views/homepage/layout/wrapper.php -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style class="kint-rich-style">.kint-rich{font-size:13px;overflow-x:auto;white-space:nowrap;background:rgba(255,255,255,.9)}.kint-rich.kint-folder{position:fixed;bottom:0;left:0;right:0;z-index:999999;width:100%;margin:0;display:block}.kint-rich.kint-folder dd.kint-foldout{max-height:calc(100vh - 100px);padding-right:8px;overflow-y:scroll;display:none}.kint-rich.kint-folder dd.kint-foldout.kint-show{display:block}.kint-rich::selection,.kint-rich::-moz-selection,.kint-rich::-webkit-selection{background:#aaa;color:#1d1e1e}.kint-rich .kint-focused{box-shadow:0 0 3px 2px red}.kint-rich,.kint-rich::before,.kint-rich::after,.kint-rich *,.kint-rich *::before,.kint-rich *::after{box-sizing:border-box;border-radius:0;color:#1d1e1e;float:none !important;font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;line-height:15px;margin:0;padding:0;text-align:left}.kint-rich{margin:8px 0}.kint-rich dt,.kint-rich dl{width:auto}.kint-rich dt,.kint-rich div.access-path{background:#f8f8f8;border:1px solid #d7d7d7;color:#1d1e1e;display:block;font-weight:bold;list-style:none outside none;overflow:auto;padding:4px}.kint-rich dt:hover,.kint-rich div.access-path:hover{border-color:#aaa}.kint-rich>dl dl{padding:0 0 0 12px}.kint-rich dt.kint-parent>nav,.kint-rich>footer>nav{background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAxNTAiPjxwYXRoIGQ9Ik02IDdoMThsLTkgMTV6bTAgMzBoMThsLTkgMTV6bTAgNDVoMThsLTktMTV6bTAgMzBoMThsLTktMTV6bTAgMTJsMTggMThtLTE4IDBsMTgtMTgiIGZpbGw9IiM1NTUiLz48cGF0aCBkPSJNNiAxMjZsMTggMThtLTE4IDBsMTgtMTgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlPSIjNTU1Ii8+PC9zdmc+") no-repeat scroll 0 0/15px 75px rgba(0,0,0,0);cursor:pointer;display:inline-block;height:15px;width:15px;margin-right:3px;vertical-align:middle}.kint-rich dt.kint-parent:hover>nav,.kint-rich>footer>nav:hover{background-position:0 25%}.kint-rich dt.kint-parent.kint-show>nav,.kint-rich>footer.kint-show>nav{background-position:0 50%}.kint-rich dt.kint-parent.kint-show:hover>nav,.kint-rich>footer.kint-show>nav:hover{background-position:0 75%}.kint-rich dt.kint-parent.kint-locked>nav{background-position:0 100%}.kint-rich dt.kint-parent+dd{display:none;border-left:1px dashed #d7d7d7}.kint-rich dt.kint-parent.kint-show+dd{display:block}.kint-rich var,.kint-rich var a{color:#06f;font-style:normal}.kint-rich dt:hover var,.kint-rich dt:hover var a{color:red}.kint-rich dfn{font-style:normal;font-family:monospace;color:#1d1e1e}.kint-rich pre{color:#1d1e1e;margin:0 0 0 12px;padding:5px;overflow-y:hidden;border-top:0;border:1px solid #d7d7d7;background:#f8f8f8;display:block;word-break:normal}.kint-rich .kint-popup-trigger,.kint-rich .kint-access-path-trigger,.kint-rich .kint-search-trigger{background:rgba(29,30,30,.8);border-radius:3px;height:16px;font-size:16px;margin-left:5px;font-weight:bold;width:16px;text-align:center;float:right !important;cursor:pointer;color:#f8f8f8;position:relative;overflow:hidden;line-height:17.6px}.kint-rich .kint-popup-trigger:hover,.kint-rich .kint-access-path-trigger:hover,.kint-rich .kint-search-trigger:hover{color:#1d1e1e;background:#f8f8f8}.kint-rich dt.kint-parent>.kint-popup-trigger{line-height:19.2px}.kint-rich .kint-search-trigger{font-size:20px}.kint-rich input.kint-search{display:none;border:1px solid #d7d7d7;border-top-width:0;border-bottom-width:0;padding:4px;float:right !important;margin:-4px 0;color:#1d1e1e;background:#f8f8f8;height:24px;width:160px;position:relative;z-index:100}.kint-rich input.kint-search.kint-show{display:block}.kint-rich .kint-search-root ul.kint-tabs>li:not(.kint-search-match){background:#f8f8f8;opacity:.5}.kint-rich .kint-search-root dl:not(.kint-search-match){opacity:.5}.kint-rich .kint-search-root dl:not(.kint-search-match)>dt{background:#f8f8f8}.kint-rich .kint-search-root dl:not(.kint-search-match) dl,.kint-rich .kint-search-root dl:not(.kint-search-match) ul.kint-tabs>li:not(.kint-search-match){opacity:1}.kint-rich div.access-path{background:#f8f8f8;display:none;margin-top:5px;padding:4px;white-space:pre}.kint-rich div.access-path.kint-show{display:block}.kint-rich footer{padding:0 3px 3px;font-size:9px;background:rgba(0,0,0,0)}.kint-rich footer>.kint-popup-trigger{background:rgba(0,0,0,0);color:#1d1e1e}.kint-rich footer nav{height:10px;width:10px;background-size:10px 50px}.kint-rich footer>ol{display:none;margin-left:32px}.kint-rich footer.kint-show>ol{display:block}.kint-rich a{color:#1d1e1e;text-shadow:none;text-decoration:underline}.kint-rich a:hover{color:#1d1e1e;border-bottom:1px dotted #1d1e1e}.kint-rich ul{list-style:none;padding-left:12px}.kint-rich ul:not(.kint-tabs) li{border-left:1px dashed #d7d7d7}.kint-rich ul:not(.kint-tabs) li>dl{border-left:none}.kint-rich ul.kint-tabs{margin:0 0 0 12px;padding-left:0;background:#f8f8f8;border:1px solid #d7d7d7;border-top:0}.kint-rich ul.kint-tabs>li{background:#f8f8f8;border:1px solid #d7d7d7;cursor:pointer;display:inline-block;height:24px;margin:2px;padding:0 12px;vertical-align:top}.kint-rich ul.kint-tabs>li:hover,.kint-rich ul.kint-tabs>li.kint-active-tab:hover{border-color:#aaa;color:red}.kint-rich ul.kint-tabs>li.kint-active-tab{background:#f8f8f8;border-top:0;margin-top:-1px;height:27px;line-height:24px}.kint-rich ul.kint-tabs>li:not(.kint-active-tab){line-height:20px}.kint-rich ul.kint-tabs li+li{margin-left:0}.kint-rich ul.kint-tab-contents>li{display:none}.kint-rich ul.kint-tab-contents>li.kint-show{display:block}.kint-rich dt:hover+dd>ul>li.kint-active-tab{border-color:#aaa;color:red}.kint-rich dt>.kint-color-preview{width:16px;height:16px;display:inline-block;vertical-align:middle;margin-left:10px;border:1px solid #d7d7d7;background-color:#ccc;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 2"><path fill="%23FFF" d="M0 0h1v2h1V1H0z"/></svg>');background-size:100%}.kint-rich dt>.kint-color-preview:hover{border-color:#aaa}.kint-rich dt>.kint-color-preview>div{width:100%;height:100%}.kint-rich table{border-collapse:collapse;empty-cells:show;border-spacing:0}.kint-rich table *{font-size:12px}.kint-rich table dt{background:none;padding:2px}.kint-rich table dt .kint-parent{min-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.kint-rich table td,.kint-rich table th{border:1px solid #d7d7d7;padding:2px;vertical-align:center}.kint-rich table th{cursor:alias}.kint-rich table td:first-child,.kint-rich table th{font-weight:bold;background:#f8f8f8;color:#1d1e1e}.kint-rich table td{background:#f8f8f8;white-space:pre}.kint-rich table td>dl{padding:0}.kint-rich table pre{border-top:0;border-right:0}.kint-rich table thead th:first-child{background:none;border:0}.kint-rich table tr:hover>td{box-shadow:0 0 1px 0 #aaa inset}.kint-rich table tr:hover var{color:red}.kint-rich table ul.kint-tabs li.kint-active-tab{height:20px;line-height:17px}.kint-rich pre.kint-source{margin-left:-1px}.kint-rich pre.kint-source[data-kint-filename]:before{display:block;content:attr(data-kint-filename);margin-bottom:4px;padding-bottom:4px;border-bottom:1px solid #f8f8f8}.kint-rich pre.kint-source>div:before{display:inline-block;content:counter(kint-l);counter-increment:kint-l;border-right:1px solid #aaa;padding-right:8px;margin-right:8px}.kint-rich pre.kint-source>div.kint-highlight{background:#f8f8f8}.kint-rich .kint-microtime-lap{text-shadow:-1px 0 #aaa,0 1px #aaa,1px 0 #aaa,0 -1px #aaa;color:#f8f8f8;font-weight:bold}input.kint-note-input{width:100%}.kint-rich .kint-focused{box-shadow:0 0 3px 2px red}.kint-rich dt{font-weight:normal}.kint-rich dt.kint-parent{margin-top:4px}.kint-rich dl dl{margin-top:4px;padding-left:25px;border-left:none}.kint-rich>dl>dt{background:#f8f8f8}.kint-rich ul{margin:0;padding-left:0}.kint-rich ul:not(.kint-tabs)>li{border-left:0}.kint-rich ul.kint-tabs{background:#f8f8f8;border:1px solid #d7d7d7;border-width:0 1px 1px 1px;padding:4px 0 0 12px;margin-left:-1px;margin-top:-1px}.kint-rich ul.kint-tabs li,.kint-rich ul.kint-tabs li+li{margin:0 0 0 4px}.kint-rich ul.kint-tabs li{border-bottom-width:0;height:25px}.kint-rich ul.kint-tabs li:first-child{margin-left:0}.kint-rich ul.kint-tabs li.kint-active-tab{border-top:1px solid #d7d7d7;background:#fff;font-weight:bold;padding-top:0;border-bottom:1px solid #fff !important;margin-bottom:-1px}.kint-rich ul.kint-tabs li.kint-active-tab:hover{border-bottom:1px solid #fff}.kint-rich ul>li>pre{border:1px solid #d7d7d7}.kint-rich dt:hover+dd>ul{border-color:#aaa}.kint-rich pre{background:#fff;margin-top:4px;margin-left:25px}.kint-rich .kint-source{margin-left:-1px}.kint-rich .kint-source .kint-highlight{background:#cfc}.kint-rich .kint-parent.kint-show>.kint-search{border-bottom-width:1px}.kint-rich table td{background:#fff}.kint-rich table td>dl{padding:0;margin:0}.kint-rich table td>dl>dt.kint-parent{margin:0}.kint-rich table td:first-child,.kint-rich table td,.kint-rich table th{padding:2px 4px}.kint-rich table dd,.kint-rich table dt{background:#fff}.kint-rich table tr:hover>td{box-shadow:none;background:#cfc}
+</style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - PN Global</title>
+
+    <!-- Favicons -->
+    <link href="/assets/img/logo.png" rel="icon">
+    <link href="/assets/img/logo.png" rel="apple-touch-icon">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Odor+Mean+Chey&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-xxl ">
+        <div class="container">
+            <a class="navbar-logo" href="/">
+                <img class="logo" src="/assets/img/new-logo.png" alt="logo pnglobal">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="openbtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-0 me-xl-2">
+                        <a class="nav-link" aria-current="page" href="#satoshi">Satoshi Signal</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-2">
+                        <a class="nav-link" aria-current="page" href="#productservice">Product and Service</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-2">
+                        <a class="nav-link" aria-current="page" href="#training">Training</a>
+                    </li>
+                    <li class="nav-item me-0 me-xl-2">
+                        <a class="nav-link" href="#service">Complementary Service</a>
+                    </li>
+                    <li class="nav-item me-0 me-lg-3 d-flex align-items-center justify-content-center">
+                        <a class="btn-navbar-referral" href="#signin">Referral Login</a>
+                    </li>
+                    <li class="nav-item mt-2 mt-lg-0 d-flex align-items-center justify-content-center">
+                        <a class="btn-navbar-contactform" href="#contactreferral">Get Referral</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+<!-- Start of Banner -->
+<div class="banner-homepage">
+    <div class="wrapper-banner-homepage" >
+        <video autoplay="" preload="" muted="" loop="" playsinline="">
+            <source src="/assets/vid/banner.webm" type="video/webm">
+        </video>
+        <div class="logo-banner">
+            <div>
+                <p id="g-text-banner-homepage" class="logo-text-banner" >
+                    <span class="line-animation">
+                        YOUR GOAL IS FINANCIAL FREEDOM. <br>
+                        <span style="color: #BFA573;">
+                            OUR GOAL IS TO MAKE IT HAPPEN.
+                        </span>
+                    </span>
+                </p>    
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End of Banner -->
+
+<!-- Start of Team Expert -->
+<section class="content team-expert-homepage">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-7 order-1 order-lg-0 left-side">
+                <h2 class="text-primary-pnglobal">Efficiency and Professionalism at the Highest Levels</h2>
+                <h5 class="text-primary-pnglobal mt-4">A Team of Experts at Your Service</h5>
+                <p>
+                    <span translate='no'> PN Global </span> is an Asset Management company that operates mainly in the Bitcoin field without, obviously, neglecting traditional markets.
+We operate as a Bitcoin broker and have established an Edge Fund to manage Bitcoin mining. <br>
+                    Our operations are mainly aimed at institutional clients and we have chosen to make the operations of our brokers transparent so that all the necessary information is available to all those interested in operating and earning independently.
+                </p>
+            </div>
+            <div class="col-12 col-lg-5 order-0 order-lg-1 bg-team-expert">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Team Expert -->
+
+<section id="satoshi" class="service-homepage">
+    
+    <div class="wrapper-big-title">
+        <h1 class=" text-uppercase fw-bold">
+            Bitcoin Brokerage guidance for buy/sell decisions
+        </h1>
+    </div>
+
+    <a href="#" class="bg-desc-service d-block">
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-lg-block col-1"></div>
+                <div class="col-12 col-lg-5 order-1 order-lg-0">
+                    <p class="text-desc-service f-noto">
+                        Satoshi Signal is not the classic signal room, in reality it is a real App which not only shows when to buy or sell Bitcoin from the signals section but inside it has a messages section where you can choose the language in which to receive messages from the APP setting.
+                    </p>
+                    <p class="text-desc-service f-noto">
+                        These messages explain the motivations and reasoning that lead to the decisions of our brokers which, we hope, will provide lessons to help users create their own strategy over time.
+                    </p>
+                </div>
+                <div class="d-none d-lg-block col-1"></div>
+                <div class="col-12 col-lg-5 order-0 order-lg-1 px-5 bg-img-satoshi-homepage">
+                    
+                </div>
+            </div>
+        </div>
+    </a>
+</section>
+
+<!-- Start of Cosulting -->
+<section id="productservice" class="content consulting-homepage pt-0">
+    <div class="wrapper-big-title">
+        <h1 class="fw-bold">
+            PRODUCTS AND SERVICES
+        </h1>
+    </div>
+
+    <!-- Consulting 1 -->
+    <div class="row box-consulting-homepage">
+        <div class="col-10 col-lg-8 black" style="cursor: pointer;" >
+            <div class="wrapper-consulting">
+                <img src="/assets/img/img-5.webp" alt="img-2">
+                <div class="d-flex justify-content-center w-100">
+                    <a 
+                        class="link-consulting "
+                    >
+                        Financial advice, assets <br>
+                        and investment
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Consulting 2 -->
+    <div class="row box-consulting-homepage justify-content-end">
+        <div class="col-10 col-lg-8 gold" style="cursor: pointer;">
+            <div class="wrapper-consulting">
+                <div class="d-flex justify-content-center w-100 order-1 order-lg-0">
+                    <a 
+                        class="link-consulting textblack "
+                    >
+                        Law and Tax
+                        Optimization
+                    </a>
+                </div>
+                <img class="order-0 order-lg-1" src="/assets/img/img-39.webp" alt="img-2">
+            </div>
+        </div>
+    </div>
+
+    <!-- Consulting 3 -->
+    <div class="row box-consulting-homepage">
+        <div class="col-10 col-lg-8 black" style="cursor: pointer;">
+            <div class="wrapper-consulting">
+                <img src="/assets/img/img-2.webp" alt="img-2">
+                <div class="d-flex justify-content-center w-100">
+                    <a 
+                        class="link-consulting "
+                    >
+                        Capital Reallocation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Cosulting -->
+
+<!-- Start of Why -->
+<section class="content why-homepage">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 why-left">
+                <div class="wrapper-why-logo">
+                    <img id="g-logo-why-homepage" class="line-animation" src="/assets/img/logo.png" alt="logo PNGLOBAL">
+                    <h2 id="g-title-why-homepage" class=" line-animation">
+                        Why Choose <br><span translate="no"> PN Global </span>
+                    </h2>
+                </div>
+                <img class="img-competen" src="/assets/img/img-25.webp" alt="img-25">
+            </div>
+            <div class="col-12 col-lg-6 why-right px-4">
+                <div class="wrapper-content-why first">
+                    <h3 id="g-why-sub-innovation" class="subtitle-why">
+                        <span class="line-animation">
+                            INNOVATION
+                        </span>
+                    </h3>
+                    <p id="g-why-content-innovation" class=" content-why">
+                        <span class="line-animation">
+                           <span translate='no'> PN Global </span> is at the forefront on the international scene, its ability to quickly adapt to market changes allows us to constantly offer the best investment and business opportunities.
+                        </span>
+                    </p>
+                </div>
+                <div class="wrapper-content-why">
+                    <h3 id="g-why-sub-reliability" class=" line-animation subtitle-why">
+                        <span class="line-animation">
+                            RELIABILITY
+                        </span>
+                    </h3>
+                    <p id="g-why-content-reliability" class=" content-why">
+                        <span class="line-animation">
+                           <span translate='no'> PN Global </span> is committed to maintaining the highest standards of integrity and transparency in all its activities to repay the trust placed by its clients. You can count on <span translate='no'> PN Global </span> for precise financial consulting and constant support.
+                        </span>
+                    </p>
+                </div>
+                <div class="wrapper-content-why">
+                    <h3 id="g-why-sub-competence" class=" line-animation subtitle-why">
+                        <span class="line-animation">
+                            PROFICIENCY
+                        </span>
+                    </h3>
+                    <p id="g-why-content-competence" class=" content-why">
+                        <span class="line-animation">
+                            The team is made up of professionals located in various jurisdictions; thanks to their wide experience and knowledge acquired in the legal, financial and technological fields they can support their clients in all their needs.
+                            <br>
+                            The skills of <span translate='no'> PN Global </span> consultants ensure that every decision is based on in-depth analysis and proven strategies, guaranteeing success.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Why -->
+
+<!-- Start of Service -->
+<section class="service-homepage">
+
+    <div id="training" class="bg-hot-deal">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center my-5 text-white  text-uppercase fw-bold">
+                        take charge of the future by investing in yourself
+                    </h1>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-2 justify-content-center">
+                <div class="col my-4">
+                    <div class="zoom-box zoom-1">
+                        <div class="with-blur-backdrop">
+                            <a 
+                                href="" 
+                                class="btn-zoom fw-bold"
+                            >
+                                free online basic training program 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-4">
+                    <div class="zoom-box zoom-2">
+                        <div class="with-blur-backdrop">
+                            <a 
+                                href="" 
+                                class="btn-zoom fw-bold"
+                            >
+                                CAMPUS FOR ADVANCED TRAINING    
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="service" class="wrapper-big-title mt-4">
+        <h1 class="text-uppercase fw-bold">
+            Complementary services offered by our partners
+        </h1>
+    </div>
+
+    <div class="bg-desc-service">
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-lg-block col-1"></div>
+                <div class="col-12 col-lg-5 order-1 order-lg-0">
+                    <p class="text-desc-service f-noto">
+                        The services offered by our partners allow you to overcome the complexities of international business.  Our team of experts, in collaboration with our partners, will provide you with tailored solutions for a wide range of needs, ensuring compliance and strategic success.  Find out how we can support you every step of the way.
+                    </p>
+                    <br><br><br><br>
+                </div>
+                <div class="d-none d-lg-block col-1"></div>
+                <div class="col-12 col-lg-5 order-0 order-lg-1 bg-img-service-desc">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-complementary-service">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center my-5 text-white ">
+                        Complementary Services
+                    </h2>
+                </div>
+            </div>
+            <div class="row py-4 mb-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col my-3">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front flip-1">
+                                <p>.</p>
+                                <img class="img-fluid" src="/assets/img/cayman-logo.webp" alt="cayman logo">
+                                <div class="btn-flip ">Investment Encrypted bank account</div>
+                            </div>
+                            <div class="flip-box-back">
+                                <div>
+                                    <p class=""> 
+                                       <span translate='no'> Cayman Financial Group </span> is a financial group based in the Cayman Islands that offers high-profit, zero-risk financial investment plans, as well as encrypted bearer current accounts.  Thanks to the collaboration with PN Global, <span translate='no'> Cayman Financial Group </span> can offer an Edge Fund on BTC Mining with guaranteed interest.
+                                        The management of the funds of the financial group and its customers is carried out on the markets by PN Global brokers.
+                                    </p>
+                                </div>
+                                <a target="_blank" class="btn-flip  px-3 py-1" href="">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-3">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front flip-2">
+                                <p>.</p>
+                                <img class="img-fluid" src="/assets/img/mif-logo.png" alt="MIF logo">
+                                <div class="btn-flip " style="padding: 0.3rem 1.5rem;">BITCOIN MINING AND TECHNOLOGY <br> SERVICES</div>
+                            </div>
+                            <div class="flip-box-back">
+                                <div>
+                                    <p class="">
+                                       <span translate='no'> Money Industrial Factory </span> is a leading company in mining farm construction and cryptocurrency mining. Thanks to the collaboration with the <span translate='no'> PN Global team, Money industrial factorty </span> has managed to transform Cryptocurrency Mining into a zero-risk financial instrument, approved and proposed by the <span translate='no'> Cayman Financial Group</span>.
+                                        Through the research and development department, <span translate='no'> Money Industrial Factory </span> provides technical support and innovative technological solutions to its customers.
+                                    </p>
+                                </div>
+                                <a target="_blank" class="btn-flip  px-3 py-1" href="">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-3">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front flip-3">
+                                <p>.</p>
+                                <img class="img-fluid" src="/assets/img/pbs-logo.png" alt="PBS logo">
+                                <div class="btn-flip " style="padding: 0.3rem 1.5rem;">Company Formation Services <br> and International Support</div>
+                            </div>
+                            <div class="flip-box-back">
+                                <div>
+                                    <p class="">
+                                       <span translate='no'> PBS Online </span> specializes in providing comprehensive support services to overcome the complexities of opening or relocating a business abroad. We provide legal and tax support, our team of experts will support you, after a careful feasibility study, in setting up the company and opening bank accounts. We also offer visa and residence permit services.    
+                                    </p>
+                                </div>
+                                <a class="btn-flip  px-3 py-1" href="" target="_blank">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    
+    
+<!-- Start of Contact Form -->
+    <section class="bg-contactform">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 left-side">
+                <h2 id="g-getintouch" class="">
+                    Get in touch with <span translate='no'> PN Global </span>
+                </h2>
+                <h4 id="g-subgetintouch" class="f-noto">
+                    We are Here to Assist You in Every Step of Your Growth and Development Journey
+                </h3>
+                <p id="g-textgetintouch" class="f-noto">
+                    If you would like more information about our services or would like to discuss your specific needs with one of our experts, please contact us. Our team of financial consultants, lawyers and accountants is at your disposal to offer you personalized support and timely responses. We are ready to assist you with the utmost professionalism and competence.
+                </p>
+                <a href="">Book a Consultation</a>
+                
+            </div>
+            <a class="d-none d-md-flex col-4 logo-contactform" href="">
+                <img class="img-fluid" style="width: 200px;" src="/assets/img/logo.png" alt="img">
+                <p class="logo-text-contactform f-noto">
+                    <span class="line-animation text-white">
+                        ASSET
+                    </span> 
+                    <br>
+                    <span class="line-animation" style="color: #BFA573;">
+                        MANAGEMENT
+                    </span>
+                </p>    
+            </a>
+        </div>
+    </div>
+</section>
+<!-- End of Contact Form -->
+    
+<!-- Start of Contact Form -->
+<section class="bg-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-link d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="" class="logo-footer">
+                        <img src="/assets/img/logo.png" alt="img">
+                        <p class="logo-text-footer f-noto">
+                            <span class="line-animation">
+                                ASSET
+                            </span> 
+                            <span class="line-animation" style="color: #BFA573;">
+                                MANAGEMENT
+                            </span>
+                        </p>    
+                    </a>
+                </div>
+                <div class="list mt-4 mt-md-0">
+                    <div class=" d-flex justify-content-start">
+                        <a class="btn-navbar-contactform px-0 mb-3 text-decoration-none text-uppercase" href="">Contact Form</a>
+                    </div>
+                    <a class="mb-3 text-uppercase" href="#">About Pn Global</a>
+                    <a class="mb-3 text-uppercase" href="#">Satoshi Signal</a>
+                    <a class="my-3 text-uppercase" href="#">Product And Services</a>
+                    <a class="my-3 text-uppercase" href="#">Training</a>
+                    <a class="mt-3 text-uppercase" href="#">Complementary Service</a>
+                    <a class="mt-3 text-uppercase" href="#">Connections</a>
+                    <a class="mt-3 text-uppercase" href="#">Privacy Policy</a>
+                    <a class="mt-3 text-uppercase" href="#">Term & Condition</a>
+                </div>
+            </div>
+            <div class="col-8 mx-auto border-hr-footer"></div>
+            <div class="col-12 my-4 d-flex justify-content-between align-items-center address">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <p class="f-inter text-white mb-4 d-flex">
+                            <span>
+                                <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5 0C2.45929 0 0 2.191 0 4.9C0 8.575 5.5 14 5.5 14C5.5 14 11 8.575 11 4.9C11 2.191 8.54071 0 5.5 0ZM5.5 6.65C4.41571 6.65 3.53571 5.866 3.53571 4.9C3.53571 3.934 4.41571 3.15 5.5 3.15C6.58429 3.15 7.46429 3.934 7.46429 4.9C7.46429 5.866 6.58429 6.65 5.5 6.65Z" fill="#D1B06B"/>
+                                </svg>
+                            </span>
+                            <span class="ps-1">
+                                <strong>Company incorporation:</strong> 16192 Coastal Highway, Lewes Delaware 19958 (USA)
+                            </span>
+                        </p>
+                        <p class="f-inter text-white mb-4 d-flex">
+                            <span>
+                                <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5 0C2.45929 0 0 2.191 0 4.9C0 8.575 5.5 14 5.5 14C5.5 14 11 8.575 11 4.9C11 2.191 8.54071 0 5.5 0ZM5.5 6.65C4.41571 6.65 3.53571 5.866 3.53571 4.9C3.53571 3.934 4.41571 3.15 5.5 3.15C6.58429 3.15 7.46429 3.934 7.46429 4.9C7.46429 5.866 6.58429 6.65 5.5 6.65Z" fill="#D1B06B"/>
+                                </svg>
+                            </span>
+                            <span class="ps-1">
+                                <strong>International finance department:</strong> 12 Collyer Quay, Ocean Financial Centre, Singapore 049319
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p class="f-inter text-white mb-4 d-flex">
+                            <span>
+                                <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5 0C2.45929 0 0 2.191 0 4.9C0 8.575 5.5 14 5.5 14C5.5 14 11 8.575 11 4.9C11 2.191 8.54071 0 5.5 0ZM5.5 6.65C4.41571 6.65 3.53571 5.866 3.53571 4.9C3.53571 3.934 4.41571 3.15 5.5 3.15C6.58429 3.15 7.46429 3.934 7.46429 4.9C7.46429 5.866 6.58429 6.65 5.5 6.65Z" fill="#D1B06B"/>
+                                </svg>     
+                            </span>
+                            <span class="ps-1">
+                                <strong>Head quarter:</strong> 46 street, 247W Platinum Tower, New York,NY 10036 (USA)
+                            </span>                           
+                        </p>
+                        <p class="f-inter text-white mb-4 d-flex">
+                            <span>
+                                <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5 0C2.45929 0 0 2.191 0 4.9C0 8.575 5.5 14 5.5 14C5.5 14 11 8.575 11 4.9C11 2.191 8.54071 0 5.5 0ZM5.5 6.65C4.41571 6.65 3.53571 5.866 3.53571 4.9C3.53571 3.934 4.41571 3.15 5.5 3.15C6.58429 3.15 7.46429 3.934 7.46429 4.9C7.46429 5.866 6.58429 6.65 5.5 6.65Z" fill="#D1B06B"/>
+                                </svg>
+                            </span>
+                            <span class="ps-1">
+                                <strong>Operational detachment:</strong> Benoa Square, Jl. Bypass Ngurah Rai A Kedonganan No.21, Jimbaran, Kec. Kuta, Kabupaten Badung, Bali 80361, Indonesia
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p class="f-inter text-white mb-4 d-flex">
+                            <span>
+                                <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5 0C2.45929 0 0 2.191 0 4.9C0 8.575 5.5 14 5.5 14C5.5 14 11 8.575 11 4.9C11 2.191 8.54071 0 5.5 0ZM5.5 6.65C4.41571 6.65 3.53571 5.866 3.53571 4.9C3.53571 3.934 4.41571 3.15 5.5 3.15C6.58429 3.15 7.46429 3.934 7.46429 4.9C7.46429 5.866 6.58429 6.65 5.5 6.65Z" fill="#D1B06B"/>
+                                </svg>     
+                            </span>
+                            <span class="ps-1">
+                                <strong>International monetary departments:</strong> Business Location: 109 Bismarckia Way - George Town Cayman Islands
+                            </span>                           
+                        </p>
+                        <p class="f-inter text-white mb-4 d-flex">
+                            <span>
+                                <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.5 0C2.45929 0 0 2.191 0 4.9C0 8.575 5.5 14 5.5 14C5.5 14 11 8.575 11 4.9C11 2.191 8.54071 0 5.5 0ZM5.5 6.65C4.41571 6.65 3.53571 5.866 3.53571 4.9C3.53571 3.934 4.41571 3.15 5.5 3.15C6.58429 3.15 7.46429 3.934 7.46429 4.9C7.46429 5.866 6.58429 6.65 5.5 6.65Z" fill="#D1B06B"/>
+                                </svg>     
+                            </span>
+                            <span class="ps-1">
+                                <strong>Brokers stock division:</strong> 11 Wallstreet, New York,  NY 10005 (USA)
+                            </span>                           
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-10 mx-auto d-flex justify-content-center">
+                <a href="#" target="_blank">
+                    <img class='img-fluid' src='/assets/img/powered-mif.png' alt='img'>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Contact Form -->
+    
+<!-- JQUERY -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+<!-- GSAP -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/split-type"></script>
+
+<!-- Custom General Javascript -->
+<script src="/assets/js/script.js"></script>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+</script>
+</body>
+</html>
